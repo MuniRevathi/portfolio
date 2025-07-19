@@ -1,0 +1,27 @@
+
+[
+    {
+      "title": "Fresh Fashions",
+      "imageSrc": "../images/project1.jpg",
+      "description": "Developed a Ecommerce website using React JS.",
+      "skills": ["HTML", "CSS", "JavaScript", "React"],
+      "demo": "https://fresh-fashions.vercel.app/",
+      "source": "https://github.com/MuniKiranCh/FreshFashions"
+    },
+    {
+      "title": "OS Simualator",
+      "imageSrc": "../images/project2.jpg",
+      "description": "Developed a webpage with simulators to visually demonstrate Operating Systems Algorithms.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://arjun-vegeta.github.io/OS-LAB-mini-project/index.html",
+      "source": "https://github.com/arjun-vegeta/OS-LAB-mini-project"
+    },
+    {
+      "title": "Cabriolet",
+      "imageSrc": "../images/project1.jpg",
+      "description": "Developed a car rental booking platform, streamlining the reservation process and boosting customer bookings.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://github.com/",
+      "source": "https://github.com/MuniKiranCh/Cabriolet"
+    }
+  ]

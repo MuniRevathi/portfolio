@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header head {
+    color: #a8a4f4;
+    margin-top: 2.5rem;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.nav-menu li a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav-menu li {
+        padding: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .nav-menu li a {
+        font-size: 1.2rem;
+    }
+}
