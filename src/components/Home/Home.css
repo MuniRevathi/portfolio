@@ -37,13 +37,20 @@
 .cta {
   padding: 10px 20px;
   font-size: 1em;
-  background-color: #007BFF; /* Customize button color */
-  color: white;
-  border: none;
+  background-color: #CCD6F6;
+  color: #0A192F;
+  border: 2px solid #CCD6F6;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
   margin-left: 265px;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #FFFFFF;
+  color: #0A192F;
+  transform: translateY(-2px);
 }
 
 .header-image {

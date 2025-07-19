@@ -1,6 +1,6 @@
 .contact-section {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  background: linear-gradient(135deg, #0A192F 0%, #112240 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@
 
 .contact-subtitle {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #CCD6F6;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -47,11 +47,11 @@
 }
 
 .info-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(204, 214, 246, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(204, 214, 246, 0.2);
 }
 
 .info-item {
@@ -69,7 +69,8 @@
   font-size: 24px;
   width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #CCD6F6;
+  color: #0A192F;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -86,17 +87,17 @@
 
 .info-text p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #CCD6F6;
   margin: 0;
   line-height: 1.5;
 }
 
 .social-links {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(204, 214, 246, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(204, 214, 246, 0.2);
 }
 
 .social-links h3 {
@@ -118,27 +119,28 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  background: #CCD6F6;
+  color: #0A192F;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 500;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #CCD6F6;
 }
 
 .social-link:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #FFFFFF;
+  color: #0A192F;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(204, 214, 246, 0.4);
 }
 
 .contact-form-container {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(204, 214, 246, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(204, 214, 246, 0.2);
 }
 
 .contact-form {
@@ -162,9 +164,9 @@
 .form-input,
 .form-textarea {
   padding: 1rem;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(204, 214, 246, 0.3);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(204, 214, 246, 0.1);
   color: #ffffff;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -173,15 +175,15 @@
 
 .form-input::placeholder,
 .form-textarea::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #CCD6F6;
 }
 
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #ffffff;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.15);
+  border-color: #CCD6F6;
+  box-shadow: 0 0 0 3px rgba(204, 214, 246, 0.2);
+  background: rgba(204, 214, 246, 0.15);
 }
 
 .form-textarea {
@@ -192,9 +194,9 @@
 
 .submit-button {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #e74c3c 0%, #f39c12 100%);
-  color: #ffffff;
-  border: none;
+  background: #CCD6F6;
+  color: #0A192F;
+  border: 2px solid #CCD6F6;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 600;
