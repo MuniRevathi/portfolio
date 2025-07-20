@@ -1,11 +1,19 @@
 import './ProjectCard.css';
+import PropTypes from 'prop-types';
 
 const ProjectCard = ({
-  project: { title, description, skills, demo, source },
+  project: { title, description, skills, demo, source, imageSrc },
 }) => {
   return (
     <div className="project-card">
       <div className="project-card-header">
+        {imageSrc && (
+          <img 
+            src={imageSrc} 
+            alt={title}
+            className="project-image"
+          />
+        )}
         <h3 className="project-title">{title}</h3>
       </div>
       
@@ -50,6 +58,17 @@ const ProjectCard = ({
       </div>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    demo: PropTypes.string,
+    source: PropTypes.string,
+    imageSrc: PropTypes.string,
+  }).isRequired,
 };
 
 export default ProjectCard;

@@ -1,27 +1,35 @@
 
 [
     {
-      "title": "Fresh Fashions",
-      "imageSrc": "../images/project1.jpg",
-      "description": "Developed a Ecommerce website using React JS.",
-      "skills": ["HTML", "CSS", "JavaScript", "React"],
-      "demo": "https://fresh-fashions.vercel.app/",
-      "source": "https://github.com/MuniKiranCh/FreshFashions"
+      "title": "Foodie",
+      "imageSrc": "/post.png",
+      "description": "Developed a comprehensive food ordering and restaurant discovery platform featuring real-time restaurant search, menu browsing, user authentication, and cart management. Built with modern web technologies to provide seamless food ordering experience with ratings, reviews, and delivery tracking.",
+      "skills": ["React", "Tailwindcss", "ExpressJS", "Swiggy API"],
+      "demo": "https://foodie-eta-seven.vercel.app/",
+      "source": "https://github.com/MuniRevathi/Foodie"
     },
     {
-      "title": "OS Simualator",
-      "imageSrc": "../images/project2.jpg",
-      "description": "Developed a webpage with simulators to visually demonstrate Operating Systems Algorithms.",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://arjun-vegeta.github.io/OS-LAB-mini-project/index.html",
-      "source": "https://github.com/arjun-vegeta/OS-LAB-mini-project"
+      "title": "Blog Verse",
+      "imageSrc": "/post.png",
+      "description": "Architected a full-stack blogging system with React frontend and Hono backend, featuring secure user authentication, persistent sessions, and PostgreSQL integration via Prisma ORM for scalable content management.",
+      "skills": ["React", "Tailwindcss", "Hono", "Prisma", "PostgreSQL"],
+      "demo": "https://blog-verse-three.vercel.app/",
+      "source": "https://github.com/MuniKiranCh/BlogVerse"
     },
     {
-      "title": "Cabriolet",
-      "imageSrc": "../images/project1.jpg",
-      "description": "Developed a car rental booking platform, streamlining the reservation process and boosting customer bookings.",
+      "title": "Blog Verse",
+      "imageSrc": "/post.png",
+      "description": "Architected a full-stack blogging system with React frontend and Hono backend, featuring secure user authentication, persistent sessions, and PostgreSQL integration via Prisma ORM for scalable content management.",
+      "skills": ["React", "Tailwindcss", "Hono", "Prisma", "PostgreSQL"],
+      "demo": "https://blog-verse-three.vercel.app/",
+      "source": "https://github.com/MuniKiranCh/BlogVerse"
+    },
+    {
+      "title": "Portfolio",
+      "imageSrc": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=400&h=300&fit=crop",
+      "description": "Designed and developed a personal portfolio website to showcase my skills, projects, and achievements, enhancing my online presence.",
       "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://github.com/",
-      "source": "https://github.com/MuniKiranCh/Cabriolet"
+      "demo": "https://munikiranch.github.io/Portfolio/",
+      "source": "https://github.com/MuniKiranCh/BlogVerse"
     }
   ]
