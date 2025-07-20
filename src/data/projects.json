@@ -2,7 +2,7 @@
 [
     {
       "title": "Foodie",
-      "imageSrc": "/post.png",
+      "imageSrc": "/food.png",
       "description": "Developed a comprehensive food ordering and restaurant discovery platform featuring real-time restaurant search, menu browsing, user authentication, and cart management. Built with modern web technologies to provide seamless food ordering experience with ratings, reviews, and delivery tracking.",
       "skills": ["React", "Tailwindcss", "ExpressJS", "Swiggy API"],
       "demo": "https://foodie-eta-seven.vercel.app/",
